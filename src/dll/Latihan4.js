@@ -3,7 +3,7 @@ import '../App.css';
 // import Navbar from '../components/Navbar';
 // import Aside from '../components/Aside';
 // import Footer from '../components/Footer';
-import API from './Api';
+import API from './Api2';
 
 function App() {
   return (

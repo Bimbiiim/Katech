@@ -1,29 +1,38 @@
-import React, { Component} from 'react';
-import Axios from 'axios';
+import react, {useState, useEffect} from 'react'
+import axios from 'axios'
 
 
-export default class App extends Component {
-    state = {
-        movies: []
-    }
+function API () {
+    
+    const [posts, setPosts] = useState([])
 
-    componentDidMount() {
-        Axios.get('https://www.themoviedb.org/?language=en-US')
+    useEffect(() => {
+       axios.get('https://raw.githubusercontent.com/Bimbiiim/API_JSON/main/Artikel2.json')
         .then(res => {
-            const movies = res.data.movies;
-            this.setState({ movies });
+            console.log(res)
+            setPosts(res.data)
         })
-        .catch(function (error) {
-            //handle error
-            console.log(error);
+        .catch(err => {
+            console.log(err)
         })
-    }
+    },[])
 
-    render() {
-        return (
-            <ul>
-                {this.state.movies.map(movies => <li>{movies.title}</li>)}
-            </ul>
-        );
-    }
+    return (
+
+        
+    <div>
+  
+        <ul>
+            {
+                posts.map(post => (
+                <li key={post.id}>{post.title}</li>
+            ))}
+        </ul>
+
+    </div>
+    
+   )
+
 }
+
+export default API

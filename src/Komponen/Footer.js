@@ -35,10 +35,12 @@ export default function Example() {
       <div class="grid grid-cols-1 gap-8 mt-16 lg:grid-cols-2 lg:gap-32">
         <div class="max-w-sm mx-auto lg:max-w-none">
           
+          <a href="LPage" >
           <img src={K} class="w-48 h-auto rounded-lg"/>
+          </a>
           
           <p class="mt-4 text-center text-white lg:text-left lg:text-lg">
-          Katech adalah media online yang fokus membahas perkembangan gadet, serta tips dan trik cara menggunakannya. Sejak tahun 2015n, Androbuntu telah dibaca lebih dari 30 juta kali.
+          Katech adalah media online yang fokus membahas perkembangan gadet, serta tips dan trik cara menggunakannya. Sejak tahun 2012, Katech telah dibaca lebih dari 30 juta kali.
           </p>
   
           <div
@@ -46,7 +48,7 @@ export default function Example() {
           >
             <a
               class="transition hover:opacity-75"
-              href=""
+              href="NF"
               target="_blank"
               rel="noreferrer"
             >
@@ -68,7 +70,7 @@ export default function Example() {
   
             <a
               class="transition hover:opacity-75"
-              href=""
+              href="NF1"
               target="_blank"
               rel="noreferrer"
             >
@@ -90,7 +92,7 @@ export default function Example() {
   
             <a
               class="transition hover:opacity-75"
-              href=""
+              href="NF"
               target="_blank"
               rel="noreferrer"
             >
@@ -110,7 +112,7 @@ export default function Example() {
   
             <a
               class="transition hover:opacity-75"
-              href=""
+              href="NF1"
               target="_blank"
               rel="noreferrer"
             >
@@ -132,7 +134,7 @@ export default function Example() {
   
             <a
               class="transition hover:opacity-75"
-              href=""
+              href="NF1"
               target="_blank"
               rel="noreferrer"
             >
@@ -162,15 +164,11 @@ export default function Example() {
               Services
             </strong>
   
-            <nav class="flex flex-col mt-6 space-y-1 text-gray-400">
-              <a class="transition hover:text-white" href="/"> Marketing </a>
-              <a class="transition hover:text-white" href="/"> Graphic Design </a>
-              <a class="transition hover:text-white" href="/">
-                App Development
-              </a>
-              <a class="transition hover:text-white" href="/">
-                Web Development
-              </a>
+            <nav class="flex flex-col mt-6 space-y-1 text-gray-100">
+              <a class="transition hover:text-white" href="NF1"> Marketing </a>
+              <a class="transition hover:text-white" href="NF1"> Graphic Design </a>
+              <a class="transition hover:text-white" href="NF1"> App Development </a>
+              <a class="transition hover:text-white" href="NF1"> Web Development </a>
             </nav>
           </div>
   
@@ -179,11 +177,11 @@ export default function Example() {
               About
             </strong>
   
-            <nav class="flex flex-col mt-6 space-y-1 text-gray-400">
-              <a class="transition hover:text-white" href="/"> About </a>
-              <a class="transition hover:text-white" href="/"> Careers </a>
-              <a class="transition hover:text-white" href="/"> History </a>
-              <a class="transition hover:text-white" href="/"> Our Team </a>
+            <nav class="flex flex-col mt-6 space-y-1 text-gray-100">
+              <a class="transition hover:text-white" href="NF"> About </a>
+              <a class="transition hover:text-white" href="NF"> Careers </a>
+              <a class="transition hover:text-white" href="NF"> History </a>
+              <a class="transition hover:text-white" href="NF"> Our Team </a>
             </nav>
           </div>
   
@@ -192,17 +190,17 @@ export default function Example() {
               Support
             </strong>
   
-            <nav class="flex flex-col mt-6 space-y-1 text-gray-400">
-              <a class="transition hover:text-white" href="/"> FAQs </a>
-              <a class="transition hover:text-white" href="/"> Contact </a>
-              <a class="transition hover:text-white" href="/"> Live Chat </a>
+            <nav class="flex flex-col mt-6 space-y-1 text-gray-100">
+              <a class="transition hover:text-white" href="NF"> FAQs </a>
+              <a class="transition hover:text-white" href="NF"> Contact </a>
+              <a class="transition hover:text-white" href="NF"> Live Chat </a>
             </nav>
           </div>
         </div>
       </div>
   
       <div class="pt-8 mt-16 border-t border-white/10">
-        <p class="text-xs leading-relaxed text-center text-gray-300">
+        <p class="text-xs leading-relaxed text-center text-gray-200">
           © 2022, Katech.com. All rights reserved.
         </p>
       </div>
